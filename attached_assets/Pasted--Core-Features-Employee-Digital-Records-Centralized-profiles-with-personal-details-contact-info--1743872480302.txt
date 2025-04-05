@@ -1,0 +1,42 @@
+
+Core Features:
+
+Employee Digital Records: Centralized profiles with personal details, contact info, attachments (IDs, diplomas), and work history.
+
+Org & Position Management: Tree-structured department hierarchy, role definitions (headcount, reporting lines), and real-time updates.
+
+Hiring/Transfer/Exit Workflows: Standardized processes (onboarding, promotions, offboarding) with templates (e.g., contract generation) and configurable approval steps.
+
+Contract & Document Tracking: Automated alerts for contract/certificate renewals, OCR-enabled search, and digital archiving.
+
+Salary & Promotions: Maintain pay grades, log adjustments, and sync with payroll modules.
+
+Benefits & Social Insurance: Track社保/公积金 (social insurance/provident fund) details and other perks for payroll compliance.
+
+Employee Self-Service: Read-only access to personal/organization data, with editable fields (e.g., address) requiring HR approval.
+
+Role-Based Security: Granular permissions (e.g., managers view only their team), audit logs, and data encryption for sensitive fields (salaries, IDs).
+
+Technical Architecture (On-Premise):
+
+Three-tier design with a central relational database (open-source, encrypted) shared across HR modules.
+
+RESTful APIs enable real-time data sync (e.g., with payroll/performance systems).
+
+Supports LAN/VPN access, LDAP/AD integration, and automated alerts (e.g., onboarding emails).
+
+Scalable for growth (hardware upgrades/read-write splitting) with low-maintenance deployment (scripts, backups).
+
+Design Principles:
+
+Comprehensive & Accurate: Prebuilt compliance features (e.g., labor contract templates, ID validation).
+
+User-Friendly: Intuitive UI (org charts, smart defaults) and minimal manual input.
+
+Flexible: Custom fields/modules (e.g., hide社保 for international staff).
+
+Secure & Compliant: Role-based access, audit trails, and local law adherence (e.g., contract renewal alerts).
+
+Integrated: Single data source for all HR modules to prevent silos.
+
+Low-Maintenance: Excel imports, config wizards, and auto-alerts for data upkeep.
